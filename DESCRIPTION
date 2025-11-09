@@ -1,19 +1,13 @@
 Package: SurrConformalDRAudrey
-
-Title: Surrogate-assisted Conformal Inference for Efficient Individual Causal Effect Estimation
-Version: 1.0
-Author: Chenyin Gao [aut, cre], Peter Gilbert [ctb], Larry Han [ctb]
-Maintainer: Chenyin Gao <cgao@hsph.harvard.edu>
-Description: Implementation of Surrogate-assisted Conformal Inference for Efficient Individual Causal Effect Estimation
-License: MIT + file LICENSE
+Type: Package
+Title: Surrogate-assisted Conformal Inference (Audrey Variant)
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Audrey", "Qian", role = c("aut", "cre"), email = "your@email.com")
+)
+Description: Personalized variant of SurrConformalDR with custom functions.
+License: GPL-3
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+LazyData: true
 RoxygenNote: 7.3.2
-LazyData: yes
-Imports: 
-    dplyr,
-    SuperLearner
-Suggests: 
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
+
